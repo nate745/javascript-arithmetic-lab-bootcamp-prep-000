@@ -1,12 +1,12 @@
-function add (1 + 80){
-
+function add (x + y){
+  return x + y
 }
-function subtract (60 - 40){
-
+function subtract (x - y){
+  return x - y
 }
-function multiply (2 * 3.4){
-
+function multiply (x * y){
+  return x * y
 }
-function divide (5.0 / 2.5){
-
+function divide (x / y){
+return x / y
 }
