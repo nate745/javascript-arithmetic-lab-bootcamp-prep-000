@@ -25,13 +25,11 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return parseInt("n")
+  return parseInt(n)
 
-  makeInt(10)
+  makeInt("10")
 }
 
 function preserveDeciaml(n) {
-  return parseFloat("n")
-
-preserveDeciaml(4.234235)
+  return parseFloat(n)
 }
