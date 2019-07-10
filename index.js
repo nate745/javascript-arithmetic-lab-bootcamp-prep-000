@@ -24,7 +24,7 @@ function dec(n) {
   dec(n)
 }
 
-function makeInt(n) {
+function makeInt(n,10) {
   return parseInt(n)
 
   makeInt("10")
@@ -32,4 +32,6 @@ function makeInt(n) {
 
 function preserveDeciaml(n) {
   return parseFloat(n)
+
+  preserveDeciaml("5.345345")
 }
