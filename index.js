@@ -24,10 +24,9 @@ function dec(n) {
   dec(n)
 }
 
-function makeInt(n) {
-  return parseInt(n)
+function makeInt(n,10) {
+  return parseInt("10")
 
-  makeInt("10")
 }
 
 function preserveDeciaml(n) {
