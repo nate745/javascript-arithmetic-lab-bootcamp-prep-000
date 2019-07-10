@@ -13,15 +13,19 @@ function divide (x, y){
 
 
 function inc(n) {
-  return n++
+  return n += 1
+
+  inc(n)
 }
 
 function dec(n) {
-  return n--
+  return n -= 1
+
+  dec(n)
 }
 
 function makeInt(n) {
-  return paseInt(n)
+  return parseInt(n)
 }
 
 function preserveDeciaml(n) {
