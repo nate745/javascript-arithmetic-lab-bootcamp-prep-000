@@ -12,29 +12,18 @@ function divide (x, y){
 }
 
 
-var number = 10
-
-function add5() {
-  number += 5
+function inc(n) {
+  return n++
 }
 
-function divideBy3() {
-  number /= 3
+function dec(n) {
+  return n--
 }
 
-divideBy3()
-console.log(number)
+function makeInt(n) {
+  return paseInt(n)
+}
 
-add5()
-console.log(number)
-
-
-number = 10
-
-add5()
-
-console.log(number) // 15
-
-divideBy3()
-
-console.log(number) // 5
+function preserveDeciaml(n) {
+  return parseFloat(n)
+}
