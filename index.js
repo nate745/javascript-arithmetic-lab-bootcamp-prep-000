@@ -27,7 +27,7 @@ function dec(n) {
 function makeInt(n) {
   return parseInt(n)
 
-  makeInt("5")
+  makeInt("10")
 }
 
 function preserveDeciaml(n) {
